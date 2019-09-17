@@ -1,0 +1,8 @@
+1.保存到暂存区:
+git add -A
+
+2.输入描述信息并提交到本地的git
+git commit -m "Say something"
+
+3.将代码推送到GitHub
+git push
