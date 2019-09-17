@@ -9,7 +9,7 @@ class StaticPagesController extends Controller
     //
 
     public  function home(){
-        phpinfo();
+       return date('Y-m-d H:i:s',time());
         return view('static_pages.home');
     }
 
